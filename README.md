@@ -4,6 +4,15 @@
 	Configuração de Plugins para o Vscode e Inicialização do Eslint para Projetos Angular
 </h1>
 
+# 😱 Desafio Proposto
+
+> Melhorar o experiência de desenvolvimento da equipa utilizando um lint para padronizar o código fonte da aplicação. Aceitei o desafio e aqui estou criando esse documento para mostrar todos os passos realizados até alcançar o objetivo.
+
+<h3  >
+	1º Passo: Vamos iniciar instalando alguns plugins e configurar o VSCode.
+</h3>
+<br>
+
 # ❤️ Instalando Plugins
 
 - **EditorConfig for VS Code**
@@ -83,3 +92,10 @@
   "workbench.colorTheme": "Dracula"
 }
 ```
+
+<h3  >
+	2º Passo: Configurar o EditorConfig.
+</h3>
+<br>
+
+# 🤓 Configurando EditorConfig
