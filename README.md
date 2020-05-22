@@ -99,3 +99,23 @@
 <br>
 
 # 🤓 Configurando EditorConfig
+
+- **Generate EditorConfig**
+
+<img    alt="Generate EditorConfig"  width="500" height="200"  src="https://res.cloudinary.com/dpeywfgot/image/upload/v1590167481/vscode-plugins/generateEditorConfig_mpvv5t.gif">
+
+- **Configurando .editorconfig**
+
+```javascript
+root = true
+
+[*]
+end_of_lines=lf
+indent_style = space
+indent_size = 2
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
+```
+
+# 🤓 Configurando ESlint
