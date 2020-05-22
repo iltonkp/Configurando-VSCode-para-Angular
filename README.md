@@ -3,7 +3,6 @@
 	<br/>
 	Configuração de Plugins para o Vscode e Inicialização do Eslint para Projetos Angular
 </h1>
-------------
 
 # Instalando Plugins
 
@@ -36,8 +35,6 @@
 ```json
 {
   "workbench.startupEditor": "newUntitledFile",
-
-  //Configura tamanho e família da fonte
   "terminal.integrated.fontSize": 14,
   "editor.tabSize": 2,
   "editor.fontSize": 14,
