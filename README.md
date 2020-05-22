@@ -4,7 +4,7 @@
 	Configuração de Plugins para o Vscode e Inicialização do Eslint para Projetos Angular
 </h1>
 
-# Instalando Plugins
+# ❤️ Instalando Plugins
 
 - **EditorConfig for VS Code**
 
@@ -30,7 +30,7 @@
 
 <img    alt="GitLens"  width="500" height="200"  src="https://res.cloudinary.com/dpeywfgot/image/upload/v1590164212/vscode-plugins/gitlens_k1vxz3.gif">
 
-# Configurando settings.json
+# 🔥 Configurando settings.json
 
 ```json
 {
