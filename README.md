@@ -132,6 +132,44 @@ npm i --save-dev eslint
 ./node_modules/.bin/eslint --init
 ```
 
+<img  src="https://res.cloudinary.com/dpeywfgot/image/upload/v1590600748/vscode-plugins/1_kgzhdf.png">
+
+<br/>
+
+<img  src="https://res.cloudinary.com/dpeywfgot/image/upload/v1590600748/vscode-plugins/3_juab6r.png">
+
+<br/>
+
+<img  src="https://res.cloudinary.com/dpeywfgot/image/upload/v1590600748/vscode-plugins/3_juab6r.png">
+
+<br/>
+
+<img   src="https://res.cloudinary.com/dpeywfgot/image/upload/v1590600749/vscode-plugins/4_eea5oo.png">
+
+<br/>
+
+<img   src="https://res.cloudinary.com/dpeywfgot/image/upload/v1590600749/vscode-plugins/5_v97ow0.png">
+
+<br/>
+
+<img   src="https://res.cloudinary.com/dpeywfgot/image/upload/v1590600748/vscode-plugins/6_rfgecm.png">
+
+<br/>
+
+<img   src="https://res.cloudinary.com/dpeywfgot/image/upload/v1590600750/vscode-plugins/7_i6xpiy.png">
+
+<br/>
+
+<img   src="https://res.cloudinary.com/dpeywfgot/image/upload/v1590600749/vscode-plugins/8_skfd11.png">
+
+<br/>
+
+<img   src="https://res.cloudinary.com/dpeywfgot/image/upload/v1590600749/vscode-plugins/9_wfqir8.png">
+
+<br/>
+
+<img   src="https://res.cloudinary.com/dpeywfgot/image/upload/v1590600749/vscode-plugins/10_anexw6.png">
+
 - **Intalando Dependências Prittier**
 
 ```sh
@@ -148,9 +186,10 @@ npm i --save-dev eslint eslint-config-prettier eslint-plugin-prettier eslint-imp
   },
   "extends": [
     "airbnb-base",
-    "plugin:@typescript-eslint/recomended",
+    "plugin:@typescript-eslint/eslint-recommended",
     "prettier/@typescript-eslint",
-    "plugin:prettier/recomended"
+    "plugin:prettier/recommended",
+    "plugin:@typescript-eslint/recommended"
   ],
   "globals": {
     "Atomics": "readonly",
@@ -163,7 +202,8 @@ npm i --save-dev eslint eslint-config-prettier eslint-plugin-prettier eslint-imp
   },
   "plugins": ["@typescript-eslint", "prettier"],
   "rules": {
-    "prettier/prettier": "error",
+    "@typescript-eslint/explicit-module-boundary-types": "off",
+    "prettier/prettier": ["error", { "singleQuote": true, "parser": "flow" }],
     "class-methods-use-this": "off",
     "@typescript-eslint/camelcase": "off",
     "no-useless-constructor": "off",
