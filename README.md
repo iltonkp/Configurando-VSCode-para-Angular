@@ -119,3 +119,96 @@ insert_final_newline = true
 ```
 
 # 🤓 Configurando ESlint
+
+- **Instalação**
+
+```sh
+npm i --save-dev eslint
+```
+
+- **Iniciando Configurações**
+
+```sh
+./node_modules/.bin/eslint --init
+```
+
+- **Intalando Dependências Prittier**
+
+```sh
+npm i --save-dev eslint eslint-config-prettier eslint-plugin-prettier eslint-import-resolver-typescript
+```
+
+- **eslinrc.json**
+
+```json
+{
+  "env": {
+    "browser": true,
+    "es6": true
+  },
+  "extends": [
+    "airbnb-base",
+    "plugin:@typescript-eslint/recomended",
+    "prettier/@typescript-eslint",
+    "plugin:prettier/recomended"
+  ],
+  "globals": {
+    "Atomics": "readonly",
+    "SharedArrayBuffer": "readonly"
+  },
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaVersion": 11,
+    "sourceType": "module"
+  },
+  "plugins": ["@typescript-eslint", "prettier"],
+  "rules": {
+    "prettier/prettier": "error",
+    "class-methods-use-this": "off",
+    "@typescript-eslint/camelcase": "off",
+    "no-useless-constructor": "off",
+    "@typescript-eslint/no-unused-vars": [
+      "error",
+      { "argsIgnorePattern": "_" }
+    ],
+    "@typescript-eslint/interface-name-prefix": [
+      "error",
+      { "prefixWithI": "always" }
+    ],
+    "import/extensions": [
+      "error",
+      "ignorePackages",
+      {
+        "ts": "never"
+      }
+    ]
+  },
+  "settings": {
+    "import/resolver": {
+      "typescript": {}
+    }
+  }
+}
+```
+
+- **eslinignore.json**
+
+```json
+
+ /*.js
+  node_modules
+  dist
+  assembly
+  e2e
+
+```
+
+- **prettier.config.js**
+
+```javascript
+module.exports = {
+  singleQuote: true,
+  trailingComma: "all",
+  arrowParens: "avoid",
+};
+```
