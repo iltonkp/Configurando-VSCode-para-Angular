@@ -173,7 +173,7 @@ npm i --save-dev eslint
 - **Intalando Dependências Prittier**
 
 ```sh
-npm i --save-dev eslint eslint-config-prettier eslint-plugin-prettier eslint-import-resolver-typescript
+npm i --save-dev eslint-config-prettier eslint-plugin-prettier eslint-import-resolver-typescript
 ```
 
 - **eslinrc.json**
