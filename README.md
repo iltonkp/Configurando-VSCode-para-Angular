@@ -132,6 +132,8 @@ npm i --save-dev eslint
 ./node_modules/.bin/eslint --init
 ```
 
+teste
+
 <img  src="https://res.cloudinary.com/dpeywfgot/image/upload/v1590600748/vscode-plugins/1_kgzhdf.png">
 
 <br/>
